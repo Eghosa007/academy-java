@@ -4,18 +4,21 @@ public class Array {
 
 	public static void main(String[] args) {
 		
-		int a = 1;
-		int b = 10;
+	int [] num = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+	
+	int max = num[0];
+	
+	for (int i = 0; i < num.length; i++ ) {
 		
-		while(b >= a) {
+		if (num[i] > max){ max = num[i];
 			
-			System.out.println(b);
-			
-			b--;
-						
-		} 
-		System.out.println("Happy New Year!");
-
+		}
+		
+		
+	}
+	
+	System.out.println(max);
+	
 		
 	}
 }
